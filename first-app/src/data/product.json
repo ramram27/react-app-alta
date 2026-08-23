@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 55000,
+    "category": "Electronics",
+    "brand": "Dell",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 30000,
+    "category": "Electronics",
+    "brand": "Samsung",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "price": 2500,
+    "category": "Accessories",
+    "brand": "Sony",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 5000,
+    "category": "Electronics",
+    "brand": "Apple",
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Keyboard",
+    "price": 1500,
+    "category": "Accessories",
+    "brand": "Logitech",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Mouse",
+    "price": 800,
+    "category": "Accessories",
+    "brand": "HP",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Monitor",
+    "price": 18000,
+    "category": "Electronics",
+    "brand": "LG",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Tablet",
+    "price": 25000,
+    "category": "Electronics",
+    "brand": "Samsung",
+    "inStock": false
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Speaker",
+    "price": 3500,
+    "category": "Audio",
+    "brand": "JBL",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Webcam",
+    "price": 4000,
+    "category": "Accessories",
+    "brand": "Logitech",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Gaming Laptop",
+    "price": 85000,
+    "category": "Computers",
+    "brand": "ASUS",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Printer",
+    "price": 12000,
+    "category": "Office",
+    "brand": "Canon",
+    "inStock": false
+  },
+  {
+    "id": 13,
+    "name": "Power Bank",
+    "price": 2000,
+    "category": "Accessories",
+    "brand": "Mi",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "External Hard Drive",
+    "price": 6000,
+    "category": "Storage",
+    "brand": "Seagate",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "USB Flash Drive",
+    "price": 700,
+    "category": "Storage",
+    "brand": "SanDisk",
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Router",
+    "price": 3000,
+    "category": "Networking",
+    "brand": "TP-Link",
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Mechanical Keyboard",
+    "price": 4500,
+    "category": "Accessories",
+    "brand": "Redragon",
+    "inStock": false
+  },
+  {
+    "id": 18,
+    "name": "Wireless Mouse",
+    "price": 1200,
+    "category": "Accessories",
+    "brand": "Logitech",
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Microphone",
+    "price": 5500,
+    "category": "Audio",
+    "brand": "Blue",
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "SSD 1TB",
+    "price": 7500,
+    "category": "Storage",
+    "brand": "Samsung",
+    "inStock": true
+  }
+]
