@@ -7,6 +7,7 @@
 // import Tabtitle from "./components/Tabtitle";
 // import User from "./components/User";
 import Clock from "./components/Clock";
+import SearchBox from "./components/SearchBox";
 function App () {
   return (
     <div>
@@ -22,6 +23,7 @@ function App () {
       <Clock />
       {/* <Tabtitle /> */}
       {/* <User />    */}
+      <SearchBox />
     </div>
   )
 }

@@ -3,7 +3,11 @@ import Data from '../data/product.json'
 
 function SearchBox() {
 const [search,setSearch] = useState('');
-const [filterUser,setFilterUser] = useState(Data)
+
+const filterData = search.trim()
+  ? Data.filter((val) =>
+  val.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+): []
 
     return (
         <div>
@@ -12,6 +16,19 @@ const [filterUser,setFilterUser] = useState(Data)
            onChange={(e)=> setSearch(e.target.value)}
           />
 
+          {
+            filterData.length > 0 && (
+                <div>
+                    {
+                        filterData.map((val)=>(
+                            <div key={val.id}>
+                               <h3>{val.name}</h3>
+                            </div>
+                        ))
+                    }
+                </div>
+            )
+          }
         </div>
     )
 }

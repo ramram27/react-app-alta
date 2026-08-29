@@ -40,10 +40,23 @@ Validate that no field is empty.
 Display an error message if validation fails.
 Display a success message when the form is submitted successfully.
 
-6. Create a React form with name and email fields. Use useEffect to automatically save the form data into localStorage whenever the user changes the name or email.
+const [formData, setFormData] =useSatate({
+    name:'',
+    email:'',
+    course:''
+})
 
-7. Create a React component that generates a random number between 1 and 100. Use useEffect to display a message based on the generated number:
+
+
+6. Create a React component that generates a random number between 1 and 100. Use useEffect to display a message based on the generated number:
 
 1–30 → Low
 31–70 → Medium
 71–100 → High
+
+
+Header.jsx
+LeftSidebar.jsx
+RightSidebar.jsx
+Footer.jsx
+MainBody.jsx

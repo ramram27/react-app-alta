@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Add() {
     const [inputA,setInputA] = useState("");
-    const [inputB,setInputB] = useState("")
+    const [inputB,setInputB] = useState("");
     const [sum,setSum] = useState("")
 
     const addTwoNum = () => {
