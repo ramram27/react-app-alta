@@ -7,10 +7,6 @@
 https://jsonplaceholder.typicode.com/users
 
 
-
-
-
-
 ### 3. Create a digital clock using React. The clock should display the current time and update every second using useEffect.
 
 Clock.jsx
@@ -22,16 +18,12 @@ component=>>>  SearchBox.jsx
 
 
 5. Student Registration Form with Validation
-
 Create a React form containing:
-
 Name
 Email
 Course
 Submit button
-
 Requirements:
-
 Use useState for form data.
 Create controlled components.
 Use onChange to update state.
