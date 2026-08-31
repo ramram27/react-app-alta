@@ -316,7 +316,7 @@ Understanding this mapping between HTTP methods and CRUD operations is essential
 
 ---
 
-## Class 5: Loading States, Error Handling & Data Fetching Strategies
+## Loading States, Error Handling & Data Fetching Strategies
 
 ### 5.1 Loading States
 
@@ -410,7 +410,7 @@ Beyond simply showing/hiding a spinner, thoughtful data-fetching design signific
 
 ---
 
-## Class 6: useRef and useMemo Hooks
+## useRef and useMemo Hooks
 
 ### 6.1 useRef Hook
 
