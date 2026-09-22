@@ -1,7 +1,6 @@
 ### 1. Create a React component with a counter. Use useEffect to update the browser tab title whenever the counter changes.
 
 
-
 ### 2. Create a React component that fetches users from an API when the component loads. Display the users' names on the screen.
 
 https://jsonplaceholder.typicode.com/users
@@ -42,13 +41,26 @@ const [formData, setFormData] =useSatate({
 
 6. Create a React component that generates a random number between 1 and 100. Use useEffect to display a message based on the generated number:
 
-1–30 → Low
-31–70 → Medium
-71–100 → High
+1–30 → Low (red color)
+31–70 → Medium (yellow cplor)
+71–100 → High (green color)
 
 
-Header.jsx
-LeftSidebar.jsx
-RightSidebar.jsx
-Footer.jsx
-MainBody.jsx
+## Product List Application
+Create a React application that fetches products from an API and displays them as product cards.
+
+API
+https://fakestoreapi.com/products
+
+Requirements
+Create a component named ProductList.
+Fetch products using Axios.
+Use useEffect to fetch products when the component mounts.
+Store products using useState.
+Display each product in a card.
+Each card should contain:
+Product image
+Product title
+Category
+Price
+Rating

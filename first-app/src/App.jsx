@@ -6,25 +6,17 @@
 // import Add from './components/Add'
 // import Tabtitle from "./components/Tabtitle";
 // import User from "./components/User";
-import Clock from "./components/Clock";
-import SearchBox from "./components/SearchBox";
-function App () {
+// import Clock from "./components/Clock";
+// import SearchBox from "./components/SearchBox";
+import Expense from "./components/Expense";
+// import UseMemo from "./components/UseMemo";
+function App() {
   return (
     <div>
-      {/* <Home name='Rahul' roll={30} />
-      <Home name='Mohit' roll={40} />
-      <Home name='Rohit' roll={40} />
-      <Student  />
-
-      <About taskName='Jaipur'  des='abc' />
-      <About taskName='Varanasi'  des='Temple' /> */}
-      {/* <Counter /> */}
-      {/* <Add /> */}
-      <Clock />
-      {/* <Tabtitle /> */}
-      {/* <User />    */}
-      <SearchBox />
+      <Expense />
+      {/* <UseMemo/> */}
     </div>
   )
 }
 export default App;
+
